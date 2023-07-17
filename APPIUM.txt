@@ -1,0 +1,107 @@
+logic
+
+Webdriver script-->appium-->uiautomator android-->andrioid emulator-->bootstrap.jar
+Webdriver script-->appium-->uiautomation ios--iosemulator-->bootstrap.js
+
+
+appium support download
+nodejs 
+android studio
+
+setup android studio system variable and path
+sometimes app data file will be hidden
+system variable
+
+foldername--ANDROID_HOME
+C:\users\elcot\appdata-1
+
+path
+%ANDROID_HOME%
+%ANDROID_HOME%platforms
+%ANDROID_HOME%platform-tools
+C:\users\elcot\appdata-1\platform-tools
+
+Appium desktop client-->Appium desktop apps-->Appium server gui windows 1.22.3-4
+
+next install appium doctor use command prompt for why we install check appium configuration is perfect or not
+
+after appium install 
+
+next cmd open enter command npm install -g appium-doctor
+
+check appium configuration
+
+open cmd enter command appium-doctor
+
+vysor desktop install click first link vysor.io
+vysor----mirror of your mobile device in pc
+
+turn on the developer mode in mobile 
+install apkinfo in your phone
+
+create maven project 
+
+maven required dependencies
+jav-client 8.0.0-beta2 maven dependencies
+selenium-java 4.1.1 maven dependencies
+
+appium tools-->commandlinetools-->platformtools-->check adb file
+
+paste the location to environment variables edit and new paste the location path
+
+How to check the configuration after paste the location adb
+
+open cmd after enter adb command
+some details shown
+
+then open cmd after enter adb devices
+ud id shown 
+
+version1
+url u = new url("nsansdnds/wd/hub")
+
+version 2
+url u = new url("nsansdnds")
+
+appium inspector search
+first link github
+scroll down 
+releases
+
+why we install appium inspector inspect native app location
+install appium inspector windows 2022.8.1 exe
+install globally
+
+run the appium 
+open the appium inspector
+remote host- local host
+remote port-4723(default)
+remote path- wd/hub(based on version)
+
+desired capabilities
+1 and 3 text boxes only used and save(future use)
+
+
+web application xpath getting way
+open cmd
+adb shell command to enter shell
+and after dumpsys window windows|grep -E 'mcurrentFocus'
+.com to ending /--->is package
+/}--->contains word is activity
+
+
+extent report 
+maven dependency extent report
+
+
+
+
+
+
+
+
+
+Takescreenshot s = Takescreenshot()driver;
+File screenshot=s.getscreenshotas(outputtype.file);
+File F= new File(/report\\calculator.png);
+Fileutils.copy(image,F);
